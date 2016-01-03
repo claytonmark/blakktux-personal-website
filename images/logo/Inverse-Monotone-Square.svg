@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Inverse-Monotone-Square</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Inverse-Monotone-Square" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+            <text id="M" sketch:type="MSTextLayer" font-family="Inversion" font-size="683" font-weight="normal">
+                <tspan x="55" y="447">M</tspan>
+            </text>
+            <path d="M259.833333,447 L259.833333,427.888889 L288.5,427.888889 L288.5,447 L259.833333,447 Z M202.5,447 L202.5,418.333333 L221.611111,418.333333 L221.611111,427.888889 L250.277778,427.888889 L250.277778,447 L202.5,447 Z M202.5,399.222222 L202.5,361 L250.277778,361 L250.277778,380.111111 L221.611111,380.111111 L221.611111,399.222222 L202.5,399.222222 Z M259.833333,380.111111 L259.833333,361 L288.5,361 L288.5,380.111111 L259.833333,380.111111 Z" id="Path" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
