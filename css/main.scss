@@ -19,9 +19,35 @@ body {
     background: rgba(#fff, 0.5);
     box-shadow: 0 2.5px 17.5px rgba(#000, 0.35);
   }
-
 }
 
 #resume-header {
   background-image: url('/images/background/boats.jpg');
+}
+
+#contact-header {
+  background-image: url('/images/background/canoe.jpg');
+  min-height: 40vh;
+}
+
+#contact-information {
+  justify-content: flex-start;
+  min-height: 40vh;
+  padding: 40px 0;
+}
+
+#work-experience {
+  padding: 20px 10% 40px;
+
+  h3 {
+    margin-bottom: 5px;
+  }
+
+  h6 {
+    margin: 5px 0 25px;
+  }
+
+  p {
+    max-width: 85%;
+  }
 }
