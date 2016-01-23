@@ -1,9 +1,19 @@
 doctype
 html
   head
+    link(rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css")
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700' type='text/css')
     link(rel='stylesheet' href='/css/main.css' type='text/css')
     link(rel='icon' href='/images/logo/color-square.png')
     title Mark Clayton
   body
+    nav
+      a(href='/index.html') HOME
+      span.divider |
+      a(href='/resume.html') RESUME
+      span.divider |
+      a(href='/about.html') CONTACT
     != yield
+    footer
+      script(src="//code.jquery.com/jquery-1.12.0.min.js")
+      script(src="/js/main.js")

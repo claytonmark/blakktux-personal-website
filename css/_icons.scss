@@ -1,0 +1,19 @@
+.icon-row {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 30px 0 15px;
+  max-width: 1000px;
+  overflow-x: scroll;
+  width: 100%;
+
+  i {
+    flex: 1 0 100px;
+    font-size: 5rem;
+    transition: color 0.4s ease;
+  }
+
+  &.inverse {
+    color: #fff;
+  }
+}

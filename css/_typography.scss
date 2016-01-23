@@ -2,7 +2,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, span, article, section {
   font-family: "Titillium Web", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
-body {
+html {
   font-size: 18px;
   font-weight: 300;
 }
@@ -43,6 +43,20 @@ p {
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+  transition: color 0.4s ease;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 small {
   font-size: 0.7rem;
+}
+
+span.divider {
+  color: #777;
+  margin: 0 17.5px;
 }

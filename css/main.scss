@@ -1,42 +1,27 @@
 @import 'typography';
 @import 'images';
+@import 'buttons';
+@import 'icons';
+@import 'navigation';
+@import 'layout';
 
 body {
   margin: 0;
 }
 
-section {
-  align-items: center;
-  display: flex;
-  flex-flow: column nowrap;
+#home-header {
+  background-image: url('/images/background/beach.jpg');
   justify-content: flex-start;
   min-height: 60vh;
-  text-align: center;
-
-  h1 {
-    color: #fff;
-  }
-}
-
-.header-section {
-  background: #000;
-  background-size: cover;
   padding: 20vh 5vw;
 
-  h1 {
-    font-size: 2.5rem;
-    margin: 5px 0;
+  img {
+    background: rgba(#fff, 0.5);
+    box-shadow: 0 2.5px 17.5px rgba(#000, 0.35);
   }
 
-  .subtitle {
-    color: #d8d8d8;
-    display: flex;
-    flex-flow: row nowrap;
-    font-size: 1.5rem;
-  }
 }
 
-span.divider {
-  color: #777;
-  margin: 0 17.5px;
+#resume-header {
+  background-image: url('/images/background/boats.jpg');
 }
