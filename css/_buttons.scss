@@ -1,5 +1,4 @@
 .btn {
-  background: transparent;
   border: 1px solid;
   border-radius: 25px;
   padding: 10px 20px;
@@ -7,21 +6,29 @@
 }
 
 .btn-default {
+  background: transparent;
   border-color: #fff;
   color: #fff;
 
   &:hover {
-    background: #0075B2;
-    border-color: #0075B2;
+    background: #fff;
+    border-color: #fff;
+    color: #000;
   }
 }
 
 .btn-inverse {
-  border-color: #0075B2;
-  color: #0075B2;
+  background: #0075B2;
+  border-color: #FFF;
+  color: #FFF;
 
   &:hover {
-    background: #0075B2;
-    color: #fff;
+    background: #FFF;
+    color: #0075B2;
   } 
+}
+
+.btn-home {
+  margin-right: 10px;
+  margin-left: 10px;
 }

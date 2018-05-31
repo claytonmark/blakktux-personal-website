@@ -1,10 +1,9 @@
 .icon-row {
   align-items: center;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   margin: 30px 0 15px;
   max-width: 1000px;
-  overflow-x: scroll;
   width: 100%;
 
   i {

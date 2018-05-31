@@ -9,6 +9,17 @@ body {
   margin: 0;
 }
 
+#pg404 {
+  background-image: url('/images/background/techstash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+  .headings {
+    color: #FFF;
+  }
+}
+
 #home-header {
   background-image: url('/images/background/nightcars.jpg');
   justify-content: flex-start;
@@ -18,6 +29,16 @@ body {
   img {
     background: rgba(#fff, 0.5);
     box-shadow: 0 2.5px 17.5px rgba(#000, 0.35);
+  }
+
+  h1 {
+    display: flex;
+    flex: 0 0 auto;
+  }
+
+  p {
+    display: flex;
+    flex-flow: row nowrap;
   }
 }
 
@@ -34,6 +55,10 @@ body {
   justify-content: flex-start;
   min-height: 40vh;
   padding: 40px 0;
+
+  p {
+    max-width: 80%;
+  }
 }
 
 #work-experience {
